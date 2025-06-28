@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="FonTS: Text Rendering with Typography and Style Controls - A novel framework for precise typography and style control in text rendering through advanced control mechanisms.">
+  <meta name="keywords" content="FonTS, Text Rendering, Typography Control, Style Control, Text-to-Image, Typography">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FonTS: Text Rendering with Typography and Style Controls</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/fonts-icon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">FonTS: Text Rendering with Typography and Style Controls</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://wendashi.github.io/">Wenda Shi</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=L2YS0jgAAAAJ">Yiren Song</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://littleor.github.io/">Dengming Zhang</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=SmL7oMQAAAAJ&hl=en">Jiaming Liu</a><sup>4</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=UhnQA3UAAAAJ&hl=zh-CN">Xingxing Zou</a><sup>1,*</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>The Hong Kong Polytechnic University, </span>
+            <span class="author-block"><sup>2</sup>National University of Singapore, </span>
+            <span class="author-block"><sup>3</sup>Chongqing University, </span>
+            <span class="author-block"><sup>4</sup>Zhejiang University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2506.21276"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://wendashi.github.io/FonTS-Page/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Model Link. -->
+              <span class="link-block">
+                <a href="https://wendashi.github.io/FonTS-Page/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-hdd"></i>
+                  </span>
+                  <span>Model</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://wendashi.github.io/FonTS-Page/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-database"></i>
+                  </span>
+                  <span>Dataset</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/teaser.jpg" alt="FonTS Teaser" width="100%"></img>
+      <h2 class="subtitle has-text-centered">
+        Text rendering with typography and style controls. The desired style is indicated by an image, and the prompt defines the text content, including font and word-level attributes. The modifier token—&lt;b*&gt; and &lt;/b*&gt; for bold, &lt;i*&gt; and &lt;/i*&gt; for italic, &lt;u*&gt; and &lt;/u*&gt; for underline—enclosed word to denote the application of effects. Results show that our method effectively supports (a) word-level control and style control, (b) style control only, (c) word-level control without compromising the performance of scene text rendering.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<div class="container is-max-desktop">
+  <!-- Abstract. -->
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Abstract</h2>
+      <div class="content has-text-justified">
+        <p>
+          Our proposed pipeline trains distinct components for different objectives to achieve uniquely balance between the content accuracy and stylization. 
+          The proposed parameter-efficient fine-tuning method with enclosing typography control tokens (ETC-tokens), provides word-level controls under resource constraints. 
+          Meanwhile, style control adapters training overcomes the content leakage in style control.
+        </p>
+        <p>
+          Through extensive experiments, we demonstrate that FonTS achieves superior typography and style control while maintaining compatibility with various existing pipelines, 
+          including artistic text rendering, scene text rendering, and basic text rendering frameworks.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--/ Abstract. -->
+</div>
+
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Framework Overview</h2>
+      <div class="container is-max-desktop">
+        <img src="./static/images/method-1.jpg" alt="Framework Overview" width="100%"></img>
+      </div>
+      <div class="content has-text-justified">
+        <p>
+          <b>Framework Overview:</b> In the training phase, (a) illustrates the typography control (TC)-finetuning with paired TC-datasets, and (b) presents the training process for style control adapters (SCA). For inference, (c) shows the integrated operation of the TC-finetuned backbone and the SCA. For simplicity, we have not depicted CLIP in the figure. The prompt in (a) is '&lt;b*&gt;Find&lt;/b*&gt; your path in Font: &lt;font:3&gt;.', and prompt in (b) is 'Artistic Text: 'Jade', the letters are composed of jade, 3d render, minimalist, high resolution, typography'.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Qualitative Comparison</h2>
+      <div class="container is-max-desktop">
+        <img src="./static/images/qual-2.jpg" alt="Qualitative Comparison" width="100%"></img>
+      </div>
+      <div class="content has-text-centered">
+        <p>
+          Qualitative comparison of style consistency and content accuracy in artistic text rendering against baselines. For all rows except the last row, the input consists of a text prompt along with style images on the top-left. In the top three rows, the text prompts are just simple captions "Text:'Word'", while for others are style captions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Artistic Letters with Different Styles</h2>
+      <div class="container is-max-desktop">
+        <img src="./static/images/app-0.jpg" alt="Artistic Letters" width="100%"></img>
+      </div>
+      <div class="content has-text-centered">
+        <p>
+          The results of artistic letters with different styles.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Logo Design Applications</h2>
+      <div class="container is-max-desktop">
+        <img src="./static/images/app-2.jpg" alt="Logo Design" width="100%"></img>
+      </div>
+      <div class="content has-text-centered">
+        <p>
+          The logo design of stylized scene text image with artistic text images and different image scales.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">More Artistic Text Rendering Results</h2>
+      <div class="container is-max-desktop">
+        <img src="./static/images/supp_more_ATR.jpg" alt="More ATR Results" width="100%"></img>
+      </div>
+      <div class="content has-text-centered">
+        <p>
+          More qualitative results of ours on artistic text rendering.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Results Across Different Rendering Types</h2>
+      <div class="container is-max-desktop">
+        <img src="./static/images/supp-define.jpg" alt="Different Rendering Types" width="100%"></img>
+      </div>
+      <div class="content has-text-centered">
+        <p>
+          Results of our method: (a), (b) and (c) in basic text rendering, artistic text rendering, and scene text rendering, respectively.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{shi2025fonts,
+      title={FonTS: Text Rendering with Typography and Style Controls}, 
+      author={Wenda Shi and Yiren Song and Dengming Zhang and Jiaming Liu and Xingxing Zou},
+      year={2025},
+      eprint={},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={}, 
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            The website template is borrowed from <a
+              href="https://github.com/nerfies/nerfies.github.io">nerfies.github.io</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
